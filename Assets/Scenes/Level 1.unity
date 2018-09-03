@@ -125,6 +125,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114210319578426892, guid: a00f4a476764e594c9f940606098dcec,
+        type: 2}
+      propertyPath: ballSounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4941176631399766, guid: a00f4a476764e594c9f940606098dcec, type: 2}
       propertyPath: m_LocalPosition.x
       value: 7.083
@@ -162,6 +167,16 @@ Prefab:
       propertyPath: paddle1
       value: 
       objectReference: {fileID: 1900950539}
+    - target: {fileID: 114210319578426892, guid: a00f4a476764e594c9f940606098dcec,
+        type: 2}
+      propertyPath: ballSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 433ed07fe7eccd847a234701788d0eca, type: 3}
+    - target: {fileID: 114210319578426892, guid: a00f4a476764e594c9f940606098dcec,
+        type: 2}
+      propertyPath: ballSounds.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a00f4a476764e594c9f940606098dcec, type: 2}
   m_IsPrefabAsset: 0
@@ -1359,6 +1374,11 @@ Prefab:
     - target: {fileID: 4400305491941438, guid: 965628a5cec8c3f43a9176587ded2a41, type: 2}
       propertyPath: m_RootOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 82696601873478708, guid: 965628a5cec8c3f43a9176587ded2a41,
+        type: 2}
+      propertyPath: m_Volume
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 965628a5cec8c3f43a9176587ded2a41, type: 2}
