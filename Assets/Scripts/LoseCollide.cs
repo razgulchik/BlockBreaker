@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class LoseCollide : MonoBehaviour {
 
-    
+    [SerializeField] AudioClip breakSound;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        GetComponent<AudioSource>().Play();
+        AudioSource.PlayClipAtPoint(breakSound, Camera.main.transform.position);
         SceneManager.LoadScene("Game Over");
     }
 

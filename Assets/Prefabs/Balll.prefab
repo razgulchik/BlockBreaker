@@ -185,15 +185,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bcfd3855650cfd40a656fdbbd8bd6b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paddle1: {fileID: 114979179178118946, guid: c4a8283ed315c6d4f95baecb7b00a101, type: 2}
+  paddle1: {fileID: 0}
   xPush: 3
   yPush: 10
   ballSounds:
-  - {fileID: 8300000, guid: 72049ca33b4cfb146b93b8cfec4e1b79, type: 3}
   - {fileID: 8300000, guid: 2be24ef031d200b409352e0b6cc8b572, type: 3}
-  - {fileID: 8300000, guid: 014400ce07baaf54e9b9e66247287ffb, type: 3}
-  - {fileID: 8300000, guid: 7c7882ecb8aa9d848a90d327596f6424, type: 3}
-  - {fileID: 8300000, guid: 433ed07fe7eccd847a234701788d0eca, type: 3}
 --- !u!212 &212919615038350286
 SpriteRenderer:
   m_ObjectHideFlags: 1
