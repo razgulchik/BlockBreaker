@@ -79,6 +79,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   breakSound: {fileID: 8300000, guid: 014400ce07baaf54e9b9e66247287ffb, type: 3}
+  blockSparklesVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 2}
 --- !u!212 &212573543217907576
 SpriteRenderer:
   m_ObjectHideFlags: 1
