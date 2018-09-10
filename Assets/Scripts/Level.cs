@@ -15,9 +15,9 @@ public class Level : MonoBehaviour {
         screenLoader = FindObjectOfType<ScreenLoader>();
     }
 
-    public void CountBreakableBlocks()
+    public void CountBlocks()
     {
-        breakableBlocks++;
+            breakableBlocks++;
     }
 
     public void BlockDestroyed()
