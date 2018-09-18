@@ -190,6 +190,7 @@ MonoBehaviour:
   yPush: 10
   ballSounds:
   - {fileID: 8300000, guid: 2be24ef031d200b409352e0b6cc8b572, type: 3}
+  randomFactor: 0.5
 --- !u!212 &212919615038350286
 SpriteRenderer:
   m_ObjectHideFlags: 1
